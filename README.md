@@ -1,6 +1,4 @@
 # Retail-Sales-Analysis-Etl-BI-Project
-Got it 👍 Since you only want the **README to explain the code (not dashboards, insights, etc.)**, here’s a **clean, code-focused README.md** draft you can add to your project folder:
-
 ---
 
 # 🛠️ Retail Sales ETL Project
@@ -46,12 +44,15 @@ Retail-Sales-ETL/
 │   └── load_dw.sql
 │
 ├── bi/
-│   ├── bi_report.pbix
+│   └── bi_report.pbix
+|
 ├── docs/
 │   ├── sql_query.docx
 │   └── project_docs.docx
-├── Scripts/
-|   └── generate_data.py        #generates required data for project 
+|
+├── scripts/
+|   └── generate_data.py        #generates required data for project
+|
 ├── requirements.txt    # Python dependencies
 └── README.md           # Project documentation
 ```
@@ -79,8 +80,8 @@ engine = create_engine(
 ### 3. **Extraction**
 
 * Reads CSV files into Pandas DataFrames:
-
 ```python
+for example
 df_sales = pd.read_csv("data/sales.csv")
 df_products = pd.read_csv("data/products.csv")
 df_customers = pd.read_csv("data/customers.csv")
