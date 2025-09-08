@@ -1,0 +1,9 @@
+Rows – customers : 50,000
+Rows – products  : 50,000
+Rows – stores    : 5,000
+Rows – sales     : 250,000
+customers: null cells = 0
+products: null cells = 0
+stores: null cells = 0
+sales: null cells = 0
+sales rows with bad foreign keys = 0

@@ -1,0 +1,8 @@
+pandas==2.2.2
+numpy==2.1.0
+Faker==24.2.0
+tqdm==4.66.5
+SQLAlchemy==2.0.32
+oracledb==2.2.0               # official Oracle driver (pure python)
+python-dotenv==1.0.1
+pydantic==2.7.0
